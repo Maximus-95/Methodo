@@ -4,10 +4,10 @@
 
 -DEBUT Black Jack
  - VAR TABLEAU Carte[]
-  -VAR ENTIER TABLEAU Carte[0] <- TABLEAU cartesPiques <- (1,2,3,4,5,6,7,8,9,J,Q,K)
-  -VAR ENTIER TABLEAU Carte[1] <- TABLEAU cartesCarreaux <- (1,2,3,4,5,6,7,8,9,J,Q,K)
-  -VAR ENTIER TABLEAU Carte[2] <- TABLEAU cartesCoeurs <- (1,2,3,4,5,6,7,8,9,J,Q,K)
-  -VAR ENTIER TABLEAU Carte[3] <- TABLEAU cartesTrèfles <- (1,2,3,4,5,6,7,8,9,J,Q,K)
+  - VAR ENTIER TABLEAU Carte[0] <- TABLEAU cartesPiques <- (1,2,3,4,5,6,7,8,9,J,Q,K)
+  - VAR ENTIER TABLEAU Carte[1] <- TABLEAU cartesCarreaux <- (1,2,3,4,5,6,7,8,9,J,Q,K)
+  - VAR ENTIER TABLEAU Carte[2] <- TABLEAU cartesCoeurs <- (1,2,3,4,5,6,7,8,9,J,Q,K)
+  - VAR ENTIER TABLEAU Carte[3] <- TABLEAU cartesTrèfles <- (1,2,3,4,5,6,7,8,9,J,Q,K)
 
   -STRUCTURE Joueur
     -VAR ENTIER numeroCartes
