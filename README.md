@@ -63,7 +63,7 @@
      - demandeCarteCroupier = oui
    - FIN SINON
 
-   - SI Joueur.numeroCarte > 21
+   - SI Joueur.numeroCarte < 21
      - choixUtilisateur <- Saisie Utilisateur
      - damandeCarteUtilisateur <- ChoixUtilisateur
    - FI SI
